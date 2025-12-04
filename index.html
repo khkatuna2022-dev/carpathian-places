@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Цікаві місця Карпат</title>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+<a class="brand" href="#home">
+  <img src="images/logo.png" alt="Логотип Карпат" width="60" height="60">
+  <span>Цікаві місця Карпат</span>
+</a>
+      <nav class="links">
+        <a href="#home" aria-current="page">Головна</a>
+        <a href="#about">Про нас</a>
+        <a href="#routes">Маршрути</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero" style="background-image:url('images/photo1.jpeg');">
+    <div class="hero-inner container">
+      <div class="hero-photo" aria-hidden="true">
+        <img src="images/photo1.jpeg" alt="Головна">
+      </div>
+      <div class="hero-text">
+        <h1>Цікаві місця Карпат</h1>
+        <p>Відкрий для себе найкрасивіші куточки Карпат — маршрути, традиції та натхнення для подорожей.</p>
+        <a class="btn" href="#places">Почати подорож</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="places" class="section">
+    <div class="container">
+      <h2 class="section-title">Популярні місця</h2>
+      <div class="grid g-4">
+        <div class="card"><img src="images/photo2.jpeg" alt=""><div class="caption">Водоспад Пробій</div></div>
+        <div class="card"><img src="images/photo3.jpeg" alt=""><div class="caption">Озеро Синевир</div></div>
+        <div class="card"><img src="images/photo4.jpeg" alt=""><div class="caption">Яремче — сувеніри</div></div>
+        <div class="card"><img src="images/photo5.jpeg" alt=""><div class="caption">Музей «Тіні забутих предків»</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Про нас</h2>
+      <div class="about-wrap">
+        <div class="about-card">
+          <h3>Ласкаво просимо на сайт «Цікаві місця Карпат»!</h3>
+          <p>Ми створили цей ресурс, щоб показати всю красу українських гір — від вершин до затишних сіл. Наша мета — допомогти мандрівникам знайти маршрути, дізнатися цікаві факти та спланувати подорожі.</p>
+          <p style="margin-top:14px;font-weight:700;color:var(--light-txt)">Ми щиро любимо Карпати і хочемо, щоб ви теж відкрили їхню магію 🌿</p>
+        </div>
+        <div class="about-grid">
+          <img class="img-shadow" src="images/photo9.jpeg" alt="">
+          <img class="img-shadow" src="images/photo2.jpeg" alt="">
+          <img class="img-shadow" src="images/photo3.jpeg" alt="">
+          <img class="img-shadow" src="images/photo4.jpeg" alt="">
+          <img class="img-shadow" src="images/photo5.jpeg" alt="">
+          <img class="img-shadow" src="images/photo6.jpeg" alt="">
+          <img class="img-shadow" src="images/photo7.jpeg" alt="">
+          <img class="img-shadow" src="images/photo8.jpeg" alt="">
+          <img class="img-shadow" src="images/photo10.jpeg" alt="">
+          <img class="img-shadow" src="images/photo1.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="routes" class="section">
+    <div class="container">
+      <h2 class="section-title">Маршрути</h2>
+      <p style="color:var(--light-txt);max-width:70ch;">Натхнення до подорожей: з Яремче через Татарів і Ворохту до Буковеля — та інші місця поруч.</p>
+
+      <div class="routes-grid">
+        <div>
+          <div class="route-photo"><img src="images/photo11.jpeg" alt="Яремче"></div>
+          <p style="text-align:center;font-weight:700;color:var(--light-txt)">Яремче</p>
+        </div>
+        <div>
+          <div class="route-photo"><img src="images/photo12.jpeg" alt="Татарів"></div>
+          <p style="text-align:center;font-weight:700;color:var(--light-txt)">Татарів</p>
+        </div>
+        <div>
+          <div class="route-photo"><img src="images/photo13.jpeg" alt="Буковель"></div>
+          <p style="text-align:center;font-weight:700;color:var(--light-txt)">Буковель</p>
+        </div>
+        <div>
+          <div class="route-photo"><img src="images/photo14.jpeg" alt="Ворохта"></div>
+          <p style="text-align:center;font-weight:700;color:var(--light-txt)">Ворохта</p>
+        </div>
+      </div>
+
+      <div class="map-wrap">
+  <div class="map-scene">
+<div class="map-scene">
+  <svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Небо -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cde6e2"/>
+      <stop offset="100%" stop-color="#a9d3c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="300" fill="url(#sky)" />
+
+  <!-- Гори (малюнок, а не фото) -->
+  <path d="M0,200 C100,120 200,180 300,150 
+           C400,120 500,180 600,140 
+           C700,110 800,170 900,130
+           L900,300 L0,300Z"
+        fill="#7eb49d" />
+
+  <!-- Додаткові дрібні гори для об'єму -->
+  <path d="M0,220 C150,180 250,210 400,180 
+           C500,160 600,200 700,170 
+           C800,140 900,190 L900,300 L0,300Z"
+        fill="#4b7565" opacity="0.6" />
+
+  <!-- Стежка/маршрут -->
+  <path id="routePath" d="M100,210 C150,180 200,220 250,160 
+                           S400,180 450,140 S600,180 650,150 S800,160 820,145"
+        fill="none" stroke="#ff6b00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Мандрівник -->
+  <circle r="6" fill="#2ecc71">
+    <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
+      <mpath xlink:href="#routePath" />
+    </animateMotion>
+  </circle>
+
+  <!-- Пункти маршруту -->
+  <circle cx="100" cy="210" r="8" fill="#fff" stroke="#2e583f" stroke-width="2"/>
+  <circle cx="350" cy="175" r="8" fill="#fff" stroke="#2e583f" stroke-width="2"/>
+  <circle cx="600" cy="175" r="8" fill="#fff" stroke="#2e583f" stroke-width="2"/>
+  <circle cx="800" cy="150" r="8" fill="#fff" stroke="#2e583f" stroke-width="2"/>
+
+  <!-- Підписи -->
+  <text x="85" y="240" font-size="14" fill="#18392b" font-weight="600">Яремче</text>
+  <text x="320" y="200" font-size="14" fill="#18392b" font-weight="600">Татарів</text>
+  <text x="570" y="200" font-size="14" fill="#18392b" font-weight="600">Ворохта</text>
+  <text x="780" y="175" font-size="14" fill="#18392b" font-weight="600">Буковель</text>
+</svg>
+</div>
+  
+
+  <div style="margin-top:20px;max-width:500px">
+    <h3 style="margin:0 0 10px;color:var(--light-txt)">Маршрут: Яремче → Татарів → Ворохта → Буковель</h3>
+    <p style="color:rgba(245,245,245,0.9); line-height:1.6">
+      Мандрівка Карпатами мальовничими дорогами, лісами і перевалами. 
+      Спостерігай, як мандрівник вирушає з Яремче до Буковеля 🌄
+    </p>
+  </div>
+</div>
+  </section>
+
+  <section id="contacts" class="section">
+    <div class="container">
+      <h2 class="section-title">Контакти</h2>
+      <div class="card contacts" style="max-width:520px;padding:18px">
+        <p style="margin:6px 0;"><b>Email:</b> <a href="mailto:khkatuna2022@itcollege.lviv.ua">khkatuna2022@itcollege.lviv.ua</a></p>
+        <p style="margin:6px 0;"><b>Телефон:</b> <a href="tel:+380684792283">+380 68 479 2283</a></p>
+        <p style="margin:6px 0;"><b>Instagram:</b> <a href="https://instagram.com/katuna_hrustuna27" target="_blank" rel="noopener">katuna_hrustuna27</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footerbar">
+      <span>© <span id="year"></span> Цікаві місця Карпат</span>
+      <span class="muted">З любов’ю до українських гір</span>
+    </div>
+  </footer>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

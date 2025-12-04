@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Маршрут — Яремче → Буковель</title>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html"><img src="images/photo21.jpeg" alt="logo"><span>Цікаві місця Карпат</span></a>
+      <nav class="links">
+        <a href="index.html">Головна</a>
+        <a href="index.html#about">Про нас</a>
+        <a href="index.html#routes" aria-current="page">Маршрути</a>
+        <a href="index.html#contacts">Контакти</a>
+      </nav>
+    </div>
+  </header>
+  <main class="section">
+    <div class="container">
+      <h1 style="color:var(--light-txt)">Маршрут: Яремче → Татарів → Ворохта → Буковель</h1>
+      <p style="color:rgba(245,245,245,0.9)">Детальний опис маршруту з порадами, часом в дорозі, рівнем складності та рекомендованими зупинками.</p>
+      <div style="margin-top:18px;background:rgba(255,255,255,0.03);padding:18px;border-radius:10px">
+        <h3 style="margin:0 0 10px;color:var(--accent)">Етапи маршруту</h3>
+        <ol style="color:var(--light-txt)">
+          <li><strong>Яремче</strong> — початкова точка: оглядовий майданчик, сувенірний ринок.</li>
+          <li><strong>Татарів</strong> — коротка прогулянка до місцевих водоспадів, кав'ярні.</li>
+          <li><strong>Ворохта</strong> — старовинні мости та краєвиди.</li>
+          <li><strong>Буковель</strong> — гірськолижний курорт, велика інфраструктура.</li>
+        </ol>
+        <p style="color:var(--light-txt)">Зручно їхати на авто або поєднати з залізничним маршрутом. Рекомендую перевіряти погоду перед поїздкою і бронювати житло заздалегідь.</p>
+      </div>
+      <p style="margin-top:18px"><a class="btn" href="index.html">Назад</a></p>
+    </div>
+  </main>
+  <footer>
+    <div class="container footerbar">
+      <span>© <span id="year"></span> Цікаві місця Карпат</span>
+      <span class="muted">З любов’ю до українських гір</span>
+    </div>
+  </footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
