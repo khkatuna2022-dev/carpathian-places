@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: khkatuna2022-dev/carpathian-places
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "html"
+    label: "HTML сторінки"
+    folder: ""
+    extension: "html"
+    create: false
+    delete: false
+    fields:
+      - { label: "HTML-код", name: "body", widget: "code", default_language: "html" }
+
+  - name: "images"
+    label: "Зображення"
+    folder: "images"
+    create: true
+    fields:
+      - { label: "Файл", name: "image", widget: "image" }
